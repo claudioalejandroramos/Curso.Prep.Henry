@@ -1,0 +1,39 @@
+
+    Variables:
+        Es un parámetro, algo que está destinado a recibir un valor y un nombre que lo identifique.
+    
+        var nombre = 'Pedro'
+
+        En este ejemplo var identifica el tipo de variable,
+        nombre al nombre de la variable y Pedro al valor asignado a la variable.
+
+        Existen tres tipos de variables: var - let - cons
+        var: variable absoluta
+        let: variable relativa (difiere al crear un “nivel de scope”)
+        cons: constante. contrario a variable, su valor no cambia
+
+    Strings:
+        Es un tipo de dato. Es todo lo que se puede expresar mediante texto. En código se debe envolver entre comillas ('simples' o "dobles"). 
+        Por ejemplo: Cualquier número entre comillas '2' ó "2" es un string ()
+
+    Funciones:
+        En JAVASC es un fragmento de código que puede ser invocado para realizar tareas o devolver un resultado.
+        Es un conjunto de objetos (variables y constantes) que se invocan y relacionan para llegar a un resultado.
+    
+        Argumentos: son valores que se informan dentro de una función.
+        Son los valores que se pasan a la función cuando ésta es invocada.
+
+        Return: produce la devolución del resultado y se interrumpe la ejecución de la función.
+        Por ello la sentencia return será normalmente la última instrucción dentro de una función.
+        Es el resultado final para lo que un objeto fué consebido.
+    
+    Declaraciones if
+        if es un operador de control de flujo y comparación.
+        if es una estructura de control utilizada para tomar decisiones.
+        Es un condicional que sirve para realizar unas u otras operaciones en función de una expresión.
+        Funciona de la siguiente manera, primero se evalúa una expresión, si da resultado positivo se realizan las acciones relacionadas con el caso positivo.
+    
+    Valores booleanos
+        En JavaSC un booleano representa un valor verdadero o falso.
+        Es una base de comparación y condicion. (true, false)
+
