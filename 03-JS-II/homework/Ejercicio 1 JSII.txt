@@ -3,7 +3,7 @@ Definición de FOR:
     Los elementos que lo componen son 3 expressions. 
         La primera es la EXPRESIÓN DE UNA VARIABLE.
         La segunda es la EXPRECIÓN DE LA CONDICION.
-        La tercera es la EXPRESIÓN DEL INCREMENTO DE LA VARIABLE.
+        La tercera es la EXPRESIÓN DEL INCREMENTO DE LA VARIABLE.git
 
 Operadores Lógicos && || !
 
