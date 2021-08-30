@@ -1,0 +1,14 @@
+Definición de FOR:
+    Es un bucle es un statement que sirve para ejecutar tareas repetitivas y que se detiene solo si la la declaración resulta falsa (False).
+    Los elementos que lo componen son 3 expressions. 
+        La primera es la EXPRESIÓN DE UNA VARIABLE.
+        La segunda es la EXPRECIÓN DE LA CONDICION.
+        La tercera es la EXPRESIÓN DEL INCREMENTO DE LA VARIABLE.
+
+Operadores Lógicos && || !
+
+ Los operadores lógicos funcionan según la lógica booleana.
+    && llamado AND ( Y en español ). Evaluará ambas expresiones y devolverá verdadero si AMBAS expresiones son true. Si uno (o ambos) de ellos es falso, este operador devolverá false.
+    || llamado OR ( O en español ). Determinará si una de las expresiones es true. Devolverá true si una (o ambas) de las expresiones es true. Devolverá false si AMBAS expresiones son false
+    ! llamado NOT ( NO en español ). Es el opuesto de (==) Este operador devolverá el valor booleano opuesto al que se lo compare.
+
