@@ -1,0 +1,27 @@
+Arrays
+  Es una variable que se utilizan para almacenar varios valores. Es una colección de tipos de datos
+  Construir una array es simple, se declara una variable y se establece entre brackets [].
+  Luego podemos agregar al contenedor (separadas por coma) tantas cadenas, números o booleanos
+  como queramos y acceder a esos elementos cuando lo deseemos.
+
+  Los elementos reciben una posición numérica (índice) de acuerdo con su ubicación en la matriz.
+  El orden numérico de una matriz SIEMPRE comienza en 0, por lo que el primer elemento está en el índice 0,
+  el segundo en el índice 1, el tercero en el 2, y así sucesivamente.
+  Para acceder a un elemento de una matriz necesitamos llamarlo por su posición.
+
+  Sintaxis para acceder al elemento: nombreDeMatriz[0] dentro de los [square brackets] se coloca en número de índice;
+  Sintaxis para acceder al último elemento que compone la matriz: nombreDeMatriz.length -1;
+  Sintaxis para asignar y reasignar cualquier índice en la matriz: nombrDeMatriz[0]='xxxxx';
+
+  Para agregar un valor la sintaxis es nombreDeMatriz.push(valor a sumar); esto agrega un elemento al final de la matriz, incrementando su longitud en 1.
+   .push devuelve la nueva longitud.
+  Para eliminar un valor la sintaxis es mombreDeMatiz.pop(valor a eliminar) esto elimina el último elemento de la matriz, disminuyendo la longitud en 1.
+   .pop devuelve el elemento 'eliminado'.
+  
+  .unshift y .shift son como .push y .pop, excepto que operan en el primer elemento de la matriz. 
+   .unshift(item) colocará un nuevo elemento en la primera posición de la matriz
+   .shift() eliminará el primer elemento de la matriz.
+
+
+
+
