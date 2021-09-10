@@ -1,5 +1,134 @@
 Objetos
+ Es una colección de propiedades. Una propiedad es una asociación entre un nombre (key) y un valor (value).
+ Para establecer una relacion con los array, el (key) es el índice [0, 1, 2, etc...] y el (value) es la cosa contenida en el index.
+ (key debe ser un string)
+
 Propiedades
+ Se define propiedad a la asociación entre un nombre (Key) y su valor (Value).
+
 Métodos
+ Cuando una funcion está dento de un objeto la llamamos Método. 
+ También se puede decir que es una propiedad que ha sido declarada mediante una función.
+  Ejemplo: 
+  saludar es un metododo del objeto persona
+
+  var persona = {nombre: 'Claudio', saludar: function() {console.log('Hola, Claudio');}};
+  undefined
+  > persona.saludar()
+  Hola, Claudio
+  undefined
+  >
+
 Bucle for…in
+ 
+  Los bucles for...in es una sententencia que se construye para iterar sobre las propiedades de un objeto.
+
+  Partiendo de la base de construcción basica de for tenemos que: Un bucle for se define mediante los siguientes elementos:
+
+  la palabra for y apertura de parenesis (
+     la declaración de una variable que se igualarla a 0 y se cierra con punto y coma;
+     la asignación de un límite de repeticiones que se cierra punto y coma;
+     y la determinación del el incremento o decremento del valor de la variable y se cierra con parentesis )
+
+     for (var i = 0; i < 10; i++)
+
+     Los bucles for in/of simplifican la sintaxis sin tener que declarar un límite ni un incremento/decremento.
+     Los bucles for in/of iteran sobre un objeto de forma arbitraria.
+     for...in no debería ser usada para iterar sobre un Array donde el orden de índice es importante.
+     Es preferible usar for...of loop iterando sobre arrays donde el orden de acceso es importante.
+     El resultado final sobre la misma variable será distinto de la siguiente manera:
+
+    El bucle for of es una sententencia que se construye para iterar un objeto. Ejecuta un bloque de código para cada elemento y trae el valor encotrado en cada posición.
+    Objetos iterables: String, Array, Map, Set, y otros definidos por el usuario.
+    
+    Ejemplo de uso bucle for...of sobre un array:
+     let precios = [100, 250, 500];
+     for (let valor of precios) {
+         console.log('Precio sin IVA: ' + valor);
+         valor += 1.21;
+         console.log('Precio con IVA: ' + valor);
+    };
+   Precio sin IVA: 100
+   Precio con IVA: 101.21
+   Precio sin IVA: 250
+   Precio con IVA: 251.21
+   Precio sin IVA: 500
+   Precio con IVA: 501.21
+   undefined
+
+   Ejemplo de uso bucle for...of sobre un string:
+   let cadena = 'Hola, Toni';
+   for (let letra of cadena){
+       console.log(letra);
+   };
+   H
+   o
+   l
+   a
+   ,
+   
+   T
+   o
+   n
+   i
+   undefined
+   >
+   
+
+    El bucle for in toma el índice de un objeto (es el mas utilizado para recorrer objetos)
+    Ejemplo del bulce for in con la misma variable nombres:
+    for (let indice in nombres) {
+        console.log(indice);
+    };
+    0
+    1
+    2
+    undefinded
+    >
+     
+
 Notación de puntos vs notación de corchetes
+  Para acceder a las propiedades de un array u objeto se puede utiliza la sintaxis Braket notation y Dot Notación.
+  
+  Braket notation: Ideal para recorrer un objeto.
+  var animal = { tipo: 'perro', sexo: 'macho', saludo: function() { console.log('Hola perro! levanta una pata');}, edad: 2};
+  undefined
+  >animal['sexo']
+  macho
+  >animal['saludo']()
+  Hola perro! levanta una pata
+  undefined
+
+  Dot notation: No es confiable para recorrer un objeto, ya que puede traer un error manejando varibles e indices..
+  
+  >animal.sexo
+  macho
+  >animal.saludo()
+  Hola perro! levanta una pata
+
+  Ojo con el Dot notation porque puede traer un error al invocar varibles e indices.
+  > var toni = {nombre: 'toni', edad: 33, cursando: false, saludar: function() {console.log('hola, Toni');}};
+  undefined
+  > toni
+  {
+  nombre: 'toni',
+  edad: 33,
+  cursando: false,
+  saludar: [Function: saludar]
+  }
+
+  >var array = [1, 2, 'toni']
+  undefined
+  >array
+  [ 1, 2, 'toni' ]
+  > var i = 0;
+  undefined
+  > array[i]
+  1
+  > var i = 'nombre'
+  undefined
+  > toni[i]
+  'toni'
+  >toni.i
+  > toni.isPrototypeOf
+  [Function: isPrototypeOf]

@@ -1,0 +1,7 @@
+prototype
+  Prototipo es el objeto primitivo y sirve de referencia para cada objeto nuevo que se crea.
+  Ese nuevo objeto heredará todas las propiedades originales del Prototipo.
+
+Constructors (de Clases)
+  Clases (o constructor) son plantillas para la creación de objetos de datos según un modelo predefinido.
+  Las clases se utilizan para representar entidades o conceptos, como los sustantivos en el lenguaje.
